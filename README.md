@@ -1,6 +1,6 @@
 Bootstrap Knowledge Check
 
-index.html styled with Bootstrap components
+- index.html styled with Bootstrap components
     - Navigation bar
         - Brand and navlinks (home, about, contact)
         - Switches to Bootstrap hamburger menu for small screens
