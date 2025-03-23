@@ -25,8 +25,31 @@
     </nav>
 
     <!-- Registration form -->
-    <div class="container-fluid">
+    <div class="container mt-5 pt-5">
+        <h2 class="text-center text-primary">Registration Form</h2>
+        <form class="border shadow-sm bg-light p-4">
+            <div class="row justify-content-start">
+                <div class="col-md-4">
+                    <label for="first-name">First Name: </label>
+                    <input type="text" id="first-name" class="form-control mb-3" placeholder="First Name">
+                </div>
+                <div class="col-md-4">
+                    <label for="last-name"> Last Name: </label>
+                    <input type="text" id="last-name" class="form-control mb-3" placeholder="Last Name">
+                </div>
+            </div>
 
+            <label for="email">Email: </label>
+            <input type="email" id="email" class="form-control mb-3" placeholder="Email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="form-control mb-3" placeholder="Password">
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="agree-terms">
+                <label class="form-check-label" for="agree-terms">By checking this box, you are agreeing to our Terms and Services.</label>
+            </div>
+
+            <button type="submit" class="btn btn-success form-control">Submit</button>
+        </form>
     </div>
 
     <!-- Data table -->
