@@ -1,10 +1,10 @@
 Bootstrap Knowledge Check
 
 index.html styled with Bootstrap components
-    - navbar
+    - Navigation bar
         - Brand and navlinks (home, about, contact)
         - Switches to Bootstrap hamburger menu for small screens
-        - JS Bootstrap source provided at the end of the document to make the hamburger button functional
+        - JS Bootstrap source provided at the end of the document to make the hamburger menu functional
     - Form
         - Contains: 
             - first and last name fields
